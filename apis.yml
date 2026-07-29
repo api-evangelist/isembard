@@ -1,8 +1,32 @@
 aid: isembard
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/isembard.png
 name: Isembard
-description: Isembard is a company surfaced as a portfolio company of union-square-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Isembard is a UK- and US-based advanced manufacturing company building a
+  distributed network of software-powered precision factories for critical
+  industries including aerospace, defence, space, satellites, drones, nuclear
+  energy, and motorsport. Founded in 2024 by Alexander Fitzgerald and named
+  after engineer Isambard Kingdom Brunel, the company runs its factories on
+  MasonOS, a proprietary AI-powered operating system that manages quoting,
+  scheduling, production, and quality control across its factory network. Its
+  model reshores high-precision component manufacturing closer to home to
+  address supply-chain vulnerabilities in the Western industrial base, scaling
+  from prototypes to production and offering factory franchise opportunities.
+  Isembard has raised a Series A led by Union Square Ventures and operates
+  factories across the UK, US, France, and Germany. There is no public developer
+  API; MasonOS is an internal software platform, so this profile captures the
+  company's identity and web surface rather than an API.
 url: https://raw.githubusercontent.com/api-evangelist/isembard/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +36,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Manufacturing
+- Advanced Manufacturing
+- Aerospace
+- Defence
+- Precision Components
+- Industrial
+- Reshoring
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +55,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.isembard.com
+- type: Blog
+  url: https://www.isembard.com/news
+- type: Support
+  url: https://www.isembard.com/contact
+- type: PrivacyPolicy
+  url: https://www.isembard.com/privacy-and-franchise-policy
+- type: Careers
+  url: https://www.isembard.com/careers
+- type: LLMsTxt
+  url: llms/isembard-llms.txt
+- type: DomainSecurity
+  url: security/isembard-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
