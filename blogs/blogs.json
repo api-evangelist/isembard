@@ -3,12 +3,12 @@
   "feeds": [
     {
       "source": "https://www.isembard.com",
-      "feed_url": "https://www.isembard.com",
+      "feed_url": "https://www.isembard.com/rss.xml",
       "title": "",
-      "saved": 0,
-      "method": "none"
+      "saved": 1,
+      "method": "discovered"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-09-13T13:00:00Z"
+  "post_count": 1,
+  "fetched": "2026-09-19T20:17:39Z"
 }
